@@ -19,6 +19,7 @@ const displayTemperature = data => {
 
 }
 
+// set id and set inner text
 const setInnerTextById = (id , text) =>{
     const getId = document.getElementById(id);
     // console.log(data.weather[0].main)
